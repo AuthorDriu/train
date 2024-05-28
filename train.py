@@ -43,7 +43,7 @@ class Screen:
 
 
 class Train:
-    image = [
+    image = (
         r"+---------+                ",
         r"|         |        +---+   ",
         r"|         |        |   |   ",
@@ -52,7 +52,7 @@ class Train:
         r"|     __            __    |",
         r"+----/  \----------/  \---+",
         r"     \__/          \__/    "
-    ]
+    )
 
     x = -len(image)
     y = 0
