@@ -77,7 +77,7 @@ class Train:
         return False
 
     def get_image(self):
-        image = self.image.copy()
+        image = list(self.image)
         
         if self.is_reversed:
             for i, line in enumerate(image):
