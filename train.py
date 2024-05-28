@@ -14,6 +14,7 @@ class Screen:
         self.width = width
         self.heigth = height
         self.train = Train()
+        self.train.y = height // 2 - len(self.train.image) // 2
     
     def _delay(self, delay):
         time_start = time_ns()
